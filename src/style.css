@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: beige;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.container {
+  justify-content: center;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  border-radius: 2em;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 0.5em;
+  font-size: 1.25em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #411530;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: beige;
+}
+button:hover {
+  border-color: #810955;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+#videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  width: 30vw;
+  height: 22.5vw;
+  margin: 1rem;
+  background: #3F4E4F;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border-radius: 2em;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 0.5em;
+  font-size: 0.9em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #570530;
+  transition: border-color 0.25s;
+}
+
+@media (max-width: 768px) {
+  #videos {
+    flex-direction: column;
+  }
+
+  video {
+    width: 80vw ;
+    height: auto;
+    margin: 0.25em;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  #videoChat {
+    max-width: 100%;
+    margin-right: auto;
+    margin-bottom: 3em;
+  }
+}
