@@ -5,13 +5,13 @@ import { getFirestore, doc, getDoc, getDocs, query, collection, addDoc, updateDo
 //  web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBf1BZNC7sJs--W8FDI2EA5odXkz3CAMRk",
-  authDomain: "shareme-365616.firebaseapp.com",
-  projectId: "shareme-365616",
-  storageBucket: "shareme-365616.appspot.com",
-  messagingSenderId: "840303189638",
-  appId: "1:840303189638:web:b593ece5f35c9d647afb07",
-  measurementId: "G-1TYKZCHR6Z"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Initialize Firebase
